@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="images/favicon.ico" />
+		<title>京东东会员注册</title>
+	</head>
+	<body>
+		<form action="1.php" method="post">
+		<fieldset>
+			<legend>账户信息</legend>
+			<br /><font color="red">*</font>用户名：<input type="text" name="username" />
+			<br />
+			<br />
+			<font color="red">*</font>密&nbsp;&nbsp;码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pwd" />
+			<br />
+			<br />
+			性&nbsp;别：<input type="radio" name="sex" checked="checked" />男
+				<input type="radio" name="sex" />女
+		</fieldset>
+		<br />
+		<hr />
+		<br />
+		<fieldset>
+			<legend>公司信息</legend>
+			<br />
+			公司名称：<input type="text" name="companayname" /><br /><br />
+			公司所在地址：
+			<select>
+				<option selected="selected">--请选择--</option>
+				<option>北京</option>
+				<option>上海</option>
+				<option>山东</option>
+				<option>江西</option>
+				<option>广东</option>
+			</select>
+			<select>
+				<option selected="selected">--请选择--</option>
+				<optgroup label="北京市">
+					<option>朝阳区</option>
+					<option>海淀区</option>
+					<option>保安区</option>
+					<option>昌平区</option>
+				</optgroup>
+				<optgroup label="江西省">
+					<option>宜春市</option>
+					<option>赣州市</option>
+					<option>南昌市</option>
+					<option>丰城市</option>
+				</optgroup>
+			</select>
+			<select>
+				<option selected="selected">--请选择--</option>
+				<option>万载</option>
+				<option>上高</option>
+				<option>上栗</option>
+				<option>袁州区</option>
+			</select>
+			<br /><br />
+			购买类型用途：
+			<input type="checkbox" checked="checked" />IT
+			<input type="checkbox"  />通讯设备
+			<input type="checkbox" " />大家电
+			<input type="checkbox" " />航空母舰
+			<br /><br />
+			公司行业：
+			<select multiple="multiple">
+				<option>IT行业</option>
+				<option>软件开发</option>
+				<option>传媒</option>
+				<option>新媒体</option>
+				<option>广告</option>
+			</select>
+			<br /><br />
+			公司介绍：<textarea cols="25" rows="10"></textarea>
+			<br /><br />
+			营业执照上传：<input type="file" />
+			<br /><br />
+			<input type="image" src="images/reg.jpg" />
+		</fieldset>
+		</form>
+	</body>
+</html>

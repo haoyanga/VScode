@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body,div,ul,li,h1,h2,h3,h4,h5,h6,dl,dt,dd,input,span{
+				padding: 0;
+				margin: 0;
+				font: 12px "microsoft yahei";
+			}
+			ul{
+				list-style: none;
+			}
+			input{
+				border: 0 none;
+				outline-style: none;
+			}
+			img{
+				border: 0 none;
+			}
+			a{
+				text-decoration: none;
+			}
+			.fl{
+				float: left;
+			}
+			.fr{
+				float: right;
+			}
+			.header{
+				width: 980px;
+				height: 62px;
+				margin: 0px auto;	
+			}
+			.logo{
+				margin-top: 20px;
+				width: 179px;
+				height: 39px;
+			}
+			.search{
+				height: 30px;
+				margin-top: 20px;
+				border: 1px solid #CECECE;
+			}
+			input[type="text"]{
+				width: 165px;
+				height: 30px;
+				vertical-align: top;
+				font: 12px/30px "微软雅黑";
+			}
+			input[type="button"]{
+				width: 30px;
+				height: 30px;
+				background: url(images/search2.jpg);
+				vertical-align: top;
+			}
+			.nav{
+				height: 55px;
+				background: url(images/nav_bg.png);
+				border-top: 1px solid #CECECE;
+			}
+			.nav-con{
+				width: 980px;
+				margin: 0 auto;
+			}
+			li{
+				float: left;
+			}
+			.nav-con li a{
+				display: inline-block;
+				height: 55px;
+				padding: 0 46px;
+				color: #000000;
+				line-height: 55px;
+				font-size: 16px;
+				background: url(images/nav_bg-line.png) no-repeat right;
+			}
+			.nav-con li a:hover{
+				background-color:#A9A9A9 ;
+				color: white;
+			}
+			.banner{
+				width: 980px;
+				height: 597px;
+				margin: 0 auto;
+			}
+			.gg{
+				height: 32px;
+				border-top: 1px solid #ADD8E6;
+				border-bottom: 1px solid #ADD8E6;
+				
+			}
+			.gg-con{
+				width: 980px;
+				margin: 0 auto;
+			}
+			.gg-con .info{
+				line-height: 29px;
+			}
+			.gg-con .icon{
+				margin-top: 8px;
+			}
+			.content{
+				height: 224px;
+				width: 980px;
+				margin: 0 auto;
+				margin-top: 15px;
+			}
+			.clearfix:after{
+				content: ".";
+				display: block;
+				line-height: 0;
+				height: 0;
+				visibility: hidden;
+				clear: both;	
+			}
+			.clearfix{
+				zoom: 1;
+			}
+			.content .pruduct{
+				width: 310px;
+				height: 224px;
+				border: 1px solid #ADD8E6 ;
+				margin-right:12px ;	
+				position: relative;
+			}
+			.content .pruduct img[class="pru"]{
+				position: absolute;
+				left: 55px;
+				top: 40px;
+			}
+			.content .pruduct img[class="pru-left"]{
+				position: absolute;
+				left: 28px;
+				top: 110px;
+			}
+			.content .pruduct img[class="pru-right"]{
+				position: absolute;
+				right: 28px;
+				top: 110px;
+			}
+			.content .news{
+				width: 373px;
+				height: 224px;
+				border: 1px solid #ADD8E6 ;
+				margin-right:12px ;	
+				float: left;
+			}
+			.content .news ul{
+				margin: 10px 18px 0 23px;
+			}
+			.content .news ul li{
+				height: 27px;
+				border-bottom: 1px dashed #DCDCDC;
+				line-height: 27px;
+			}
+			.content .support{
+				width: 267px;
+				height: 224px;
+				border: 1px solid #ADD8E6 ;	
+				
+			}
+			.footer{
+				height: 222px;
+				background-color: #2D2D2D;
+				margin-top: 30px;
+				border-bottom: 1px dashed #CCCCCC;
+			}
+			.bottom{
+				height: 84px;
+				background-color: #2D2D2D;
+			}
+			span.title{
+				display: inline-block;
+				color: #7AB800;
+				background: url(images/o.jpg) no-repeat left;
+				padding-left: 18px;
+				margin-top: 14px;
+				margin-left: 5px;
+			}
+			.tec{
+				    height: 12px;
+				    margin: 10px 0 0 28px;
+				    border-left: 3px solid #009900;
+				    padding-left: 4px;
+			}
+			.tel{
+				margin: 35px 0 0 28px;
+			}	
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo fl">
+				<img src="images/logo.jpg">
+			</div>
+			<div class="search fr">
+				<input type="text" value="请输入..."><input type="button" />
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav-con">
+				<ul >
+				<li><a href="#">首页</a></li>
+				<li><a href="#">智能手机</a></li>
+				<li><a href="#">平板电脑</a></li>
+				<li><a href="#">配件</a></li>
+				<li><a href="#">服务支持</a></li>
+				<li><a href="#">关于尚合</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner"><img src="images/banner.jpg" alt="" /></div>
+		<div class="gg">
+			<div class="gg-con">
+			<div class="info fl"><span style="color: #DB4732;">最新公告：尚合Aone智能手机入网证已获取工信部门审批下发。</span></div>
+			<div class="icon fr">
+				<img src="images/zone.png" alt="" />
+				<img src="images/weibo.png" alt="" />
+				<img src="images/xinlang.png" alt="" />
+				<img src="images/renren.png" alt="" />
+			</div>
+			</div>
+		</div>
+		<div class="content ">
+			<div class="pruduct fl">
+				<span class="title">新品发布</span>
+				<img src="images/home_hot_01.png" class="pru"/>
+				<img src="images/left.png" class="pru-left" />
+				<img src="images/right.png" class="pru-right"/>
+			</div>
+			<div class="news">
+				<span class="title">新闻中心</span>
+				<ul>
+					<li>致歉公告</li>
+					<li>首批尚合Aonet已全部售馨!</li>
+					<li>我司产品已经通过了国家强制性产品3C认证</li>
+					<li>尚合Aone智能手机入网证已经获工信部门审批下发.</li>
+					<li>我司通过ISO9001:2008国际质量管理体系认证</li>
+					<li>【媒体报导】国产高性价比 尚合Aonet四核手机评测</li>
+				</ul>
+			</div>
+			<div class="support fr">
+				<span class="title">技术与支持</span>
+				<div class="tec">售后服务</div>
+				<div class="tec">售后服务</div>
+				<div class="tec">售后服务</div>
+				<div class="tec">售后服务</div>
+				<div class="tel">深圳市汇聚众合科技发展有限公司 <br />
+服务热线：400-633-7922</div>
+			</div>
+			
+		</div>
+		<div class="footer"></div>
+		<div class="bottom"></div>
+	</body>
+</html>
